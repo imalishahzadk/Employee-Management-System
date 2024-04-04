@@ -1,0 +1,68 @@
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 22%;
+    border-radius: 5px;
+  }
+  
+  .admin-header {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5pc;
+    color: white;
+  }
+  
+  .admin-list {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #585a5c;
+    color: white;
+  }
+  
+  .table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .btn {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .btn-sm {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+  
+  .btn-sm.me-2 {
+    margin-right: 8px;
+  }
+  
+  

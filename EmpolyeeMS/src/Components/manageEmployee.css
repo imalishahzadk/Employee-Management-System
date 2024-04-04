@@ -1,0 +1,102 @@
+.employee-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employee-box {
+  border: 1px solid #343a40;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px; /* Adjust for smaller screens */
+  margin-left: 40px; /* Adjust for smaller screens */
+  width: 100%; /* Adjust for smaller screens */
+  max-width: 450px; /* Limit width on larger screens */
+  box-shadow: 0 15px 50px rgba(24, 23, 23, 0.1);
+  background-color: #343a40;
+  transition: transform 0.3s ease; 
+}
+
+.employee-box:hover {
+  transform: scale(1.01); 
+}
+
+.employee-details {
+  background-color: #343a40;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.empImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.employee-details span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.achievement-box-bar {
+  margin-top: 10px;
+}
+
+.top-left-button {
+  position: absolute;
+  top: 11px;
+  left: 26%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  padding: 10px 20px;
+  background-color: #343a40; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.btn1{
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  margin-left: 40%;
+}
+.btn2 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  margin-left: 3%;
+}
+
+.btn1 {
+  background-color: rgb(30, 161, 30);
+}
+
+.btn2 {
+  background-color: rgb(145, 7, 7);
+}
+
+.employee-container-scrollable {
+  overflow-x: auto; 
+  max-height: 560px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .employee-box {
+    margin-top: 25%;
+      width: calc(100% - 40px); /* Adjust for smaller screens */
+      margin-left: 20px; /* Adjust for smaller screens */
+  }
+  .top-left-button{
+    margin-top: 25%;
+    margin-left: 31%;  
+  }
+}
